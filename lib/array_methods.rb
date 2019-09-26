@@ -11,6 +11,15 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
+ largest_num = array(1)
+  array.each do |num|
+    if element >= largest_num
+      largest_num = num
+    else
+      largest_num = largest_num
+    end
+    puts largest_num
+  end
 
  end
 
