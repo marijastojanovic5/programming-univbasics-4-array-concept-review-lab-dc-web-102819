@@ -11,13 +11,23 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max = nil
-array.each do |element|
- 
-  max = element if max.nil? || max < element
+ def minmax(list)
+  max = list[0]
+  min = list[0]
+
+  list.each do |elem|
+    if elem > max then
+      max = elem
+    elsif elem < min
+      min = elem
+    end
+  end
+
+  return min, max
 end
 
-puts [ max]
+min, max = minmax(list)
+printf("max=#{max}, min=#{min}") 
   
 end
 
