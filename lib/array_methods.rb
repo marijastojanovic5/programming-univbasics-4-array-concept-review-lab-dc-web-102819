@@ -26,8 +26,8 @@ def find_max_value(array)
   return min, max
 end
 
-min, max = minmax(list)
-printf("max=#{max}, min=#{min}") 
+min, max = minmax(array)
+ 
   
 end
 
