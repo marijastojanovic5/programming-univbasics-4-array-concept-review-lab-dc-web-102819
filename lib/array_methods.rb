@@ -26,7 +26,7 @@ def find_min_value(array)
   while counter<array.length do
     
     if array[counter]=== array.min
-      return c
+      return array.min
 		end
     counter+=1 
   end
