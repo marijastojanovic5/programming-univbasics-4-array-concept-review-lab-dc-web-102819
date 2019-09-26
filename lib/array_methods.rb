@@ -11,9 +11,9 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
- def minmax(list)
-  max = list[0]
-  min = list[0]
+
+  max = array[0]
+  min = array[0]
 
   array.each do |elem|
     if elem > max then
