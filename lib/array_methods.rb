@@ -26,10 +26,6 @@ def find_max_value(array)
   return min, max
 end
 
-min, max = minmax(array)
- 
-  
-end
 
 def find_min_value(array)
 
