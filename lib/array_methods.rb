@@ -15,10 +15,10 @@ def find_max_value(array)
   max = list[0]
   min = list[0]
 
-  list.each do |elem|
+  array.each do |elem|
     if elem > max then
       max = elem
-    elsif elem < min
+    else if elem < min
       min = elem
     end
   end
